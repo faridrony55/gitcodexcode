@@ -1,0 +1,71 @@
+#course {
+    padding: 3% 0;
+}
+#course .row .bg{
+    background-image: url("../../assets/images/double.gif") ;
+    background-position: 100% 10%;
+    background-repeat: no-repeat;
+    background-size: 250px auto;
+}
+#course h1{
+    font-size: 3em;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 1em;
+    color: #303841;
+}
+#course h1 a{
+    color: #47bd75;
+}
+blockquote{
+    background:#f7f7f7;
+    padding: 15px 30px;
+    font-style: italic; 
+    font-size: 14px;
+}
+.coffee{
+     
+
+}
+
+.btn-custom{
+    max-width: 100%;
+    margin-bottom: 28px;
+    border-color: #303841;
+    color: #303841;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    font-weight: 600;
+    border-radius: 40px;
+    font-family: Montserrat,sans-serif;
+    border: 2px solid;
+    outline: 0;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 50px;
+    font-size: 22px;
+    text-transform: uppercase;
+    transition: color .3s ease,background-color .3s ease,border .3s ease;
+    margin-top: 20px;
+}
+.btn-custom:hover{
+    background-color: #303841;
+    color: #ffffff;
+}
+ 
+
+@media(max-width:1199px){
+    #course .row .bg{
+        background-image: url();
+    }
+   
+}
+@media(max-width:1199px){
+     
+    #course h1 {
+        font-size: 2.3em;
+    }
+}

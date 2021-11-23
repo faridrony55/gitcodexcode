@@ -1,0 +1,32 @@
+.macf{
+    transition: all 0s ease-out;
+}
+.macb{
+    transition: all 0s ease-out;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hvr-img{
+    position: relative;
+}
+.hvr-img:hover .macf{
+    visibility: hidden;
+}
+.hvr-img:hover .macb{
+    visibility: visible;
+}
+.mail{
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 300%;
+}
+
+@media(max-width:575px){
+    .mail{
+        
+  font-size:30px; 
+    } 
+}

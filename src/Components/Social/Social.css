@@ -1,0 +1,11 @@
+.social{}
+.social .nav-item{}
+.social .nav-item a{
+    color: #ffffff;
+    font-weight: 600;
+    background: #47bd75;
+    margin-right: 10px;
+    border-radius: 3px;
+    padding: 5px 18px;
+    margin-bottom: 30px;
+}

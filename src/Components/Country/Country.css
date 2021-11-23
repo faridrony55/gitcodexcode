@@ -1,0 +1,21 @@
+.flag{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.countryList{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+.countryList span{
+    font-size: 14px;
+}
+.countryList   i{ 
+    font-size: 13px;
+    padding-left: 10px;
+    color: #212529;
+    font-weight: 500;
+   
+}

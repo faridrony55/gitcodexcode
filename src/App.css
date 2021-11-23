@@ -1,3 +1,6 @@
+*{
+  color: #1d293f;
+}
 .App {
   text-align: center;
 }
@@ -36,3 +39,12 @@
     transform: rotate(360deg);
   }
 }
+
+.btn-primary{
+  background-color: #47bd75 !important;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+ 

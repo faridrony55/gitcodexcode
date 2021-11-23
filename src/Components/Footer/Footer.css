@@ -1,0 +1,32 @@
+footer{
+
+    background: #303841;
+    color: #fff;
+    padding: 50px 0 0;
+}
+footer img{
+   
+    width: 150px;;
+}
+footer h1{
+    font-size: 30px;
+}
+footer h2,footer h2 a{
+    color: #fff;
+    font-weight: 300;
+}
+footer h2 a:hover{
+    color: #fff;
+}
+.top-footer{
+    background-color: #242d3d!important;
+    padding: 5px 0;
+    margin-top: 50px;
+}
+.top-footer p{
+   
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 0;
+}

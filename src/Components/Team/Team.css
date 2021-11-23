@@ -1,0 +1,20 @@
+#team{
+    padding: 80px 0;
+}
+.team{
+    padding: 30px 0;
+}
+.team img{
+    border-radius: 10px;
+}
+.team h3{
+    font-size: 24px;
+    color: #303841!important;
+    padding-top: 10px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.team p{
+    font-size: 22px;
+    line-height: 1.4;
+}

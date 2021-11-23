@@ -1,0 +1,6 @@
+.banner{}
+.banner img{  
+    overflow: hidden; 
+    border-radius: 8px;
+    box-shadow: 0 0 50px rgba(77, 77, 77, 0.26);
+}

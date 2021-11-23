@@ -1,0 +1,87 @@
+#frontpage {
+    padding-bottom: 3%;
+}
+ 
+#frontpage h1{
+    font-size: 3em;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+#frontpage h1 a{
+    color: #47bd75;
+   
+}
+.btn-custom{
+    max-width: 100%;
+    margin-bottom: 28px;
+    border-color: #303841;
+    color: #303841;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    font-weight: 600;
+    border-radius: 40px;
+    font-family: Montserrat,sans-serif;
+    border: 2px solid;
+    outline: 0;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 50px;
+    font-size: 22px;
+    text-transform: uppercase;
+    transition: color .3s ease,background-color .3s ease,border .3s ease;
+    margin-top: 20px;
+}
+.btn-custom:hover{
+    background-color: #303841;
+    color: #ffffff;
+}
+.textAnimation{
+    padding: 100px 0;
+}
+.textAnimation h2{
+    /* background: -webkit-linear-gradient(#000, #909090);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+    font-size: 26px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1;
+    /* background-image: url(../../assets/images/nou.JPG); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.textAnimation img {
+    border-radius: 8px;
+    box-shadow: 0 0 30px #3333331f;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+@media (max-width: 1199px){
+
+    .textAnimation h1 {
+        font-size: 120px !important; 
+    }
+}
+@media (max-width: 991px){
+
+    .textAnimation h1 {
+        font-size: 4em !important; 
+    }
+}
+@media (max-width: 575px){
+
+    .textAnimation h1 {
+        font-size: 45px !important;
+        text-align: center;
+        line-height: 1 !important;
+    }
+    .textAnimation {
+        padding: 50px 0;
+    }
+}

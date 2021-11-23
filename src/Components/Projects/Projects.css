@@ -1,0 +1,26 @@
+#projects{
+    padding: 80px 0;
+}
+#projects h2{
+    font-size: 40px;
+    font-weight: 800;
+    padding: 20px 0;
+    max-width: 500px;
+}
+#projects img{ 
+    max-width: 100%; 
+     
+    transition: all 0.4s;
+    bottom: auto;
+}
+.project{
+    
+    position: relative;
+    margin-bottom: 30px;
+
+}
+.project:hover img{
+    
+    top: auto !important;
+    bottom: 0;
+}
